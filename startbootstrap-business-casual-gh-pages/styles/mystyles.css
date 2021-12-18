@@ -1,0 +1,89 @@
+body {
+    background-image: url("../images/img/waterfall.jpeg");
+    background-size:contain;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header 
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    color:rgb(158, 212, 158);
+    outline: ivory;
+}
+
+/*About Me Page*/
+    h4 {
+        text-align: center;
+    }
+
+/*Products/Interests Page*/
+    .grid-container {
+        display: grid;
+        grid-auto-columns: auto auto; /* three columns as wide as they can get*/
+        margin: 25px;
+        gap: 25px; /* width between boxes*/
+    }
+
+    .grid-item {
+        text-align: center;
+        border-radius: 25px;
+    }
+
+    .grid-item img {
+        width: 50%;
+      }
+   
+/*Tableau Page*/
+    h3 {
+        font-family: Verdana,Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 4.5em;
+        text-align: center;
+        color:white
+    }
+
+    .menu {
+        display:flex;
+        background-color:rgb(181, 223, 243) ;
+        flex-direction: row;
+    }
+    
+    .menu li{
+        text-align: center;
+        padding: 10px 10px;
+        height: 50px;
+        flex-grow: 3;
+        list-style: none;
+    }
+    
+    .menu li a {
+        color:white;
+        font-size: large;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .menu li a:hover {
+        font-size: 28px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto; /* three columns as wide as they can get*/
+        margin: 25px;
+        gap: 25px; /* width between boxes*/
+    }
+    
+    .tableauPlaceholder {
+        text-align: center;
+        border-radius: 25px;
+    }
+        
+    .grid-item img {
+        width: 80%;
+      }
+
+    h5 {
+        color: whitesmoke;
+    }
